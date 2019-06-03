@@ -43,7 +43,7 @@ import { LayoutModule } from './layout/layout.module';
     CartPageModule, // as longs as we do not have #2661 in place we need a specific cart page module
     OrderConfirmationPageModule, // temp add here till it gets removed by #2691
   ],
-  // exports: [LayoutModule],
+  exports: [LayoutModule],
   providers: [...provideConfigFromMetaTags()],
   declarations: [],
 })
